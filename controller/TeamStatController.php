@@ -20,7 +20,6 @@ class TeamStatController
             echo json_encode($matches);
         }
     }
-    // getGlobalStatsByTeamID
     public function getGlobalStatsByTeamID()
     {
         if (isset($_GET['teamID'])) {
